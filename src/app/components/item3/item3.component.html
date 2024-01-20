@@ -1,1 +1,18 @@
-<p>item3 works!</p>
+<div class="container">
+  <h2>Tabella degli utenti</h2>
+    <ul class="widthCustom responsive-table">
+      <li class="table-header">
+        <div class="col col-1">ID</div>
+        <div class="col col-2">Nome</div>
+        <div class="col col-3">Email</div>
+        <div class="col col-4">Password</div>
+      </li>
+      <li class="table-row"  *ngFor="let user of users; let i = index">
+        <div class="col col-1" data-label="ID">{{i + 1}}</div>
+        <div class="col col-2" data-label="Nome">{{user.userName}}</div>
+        <div class="col col-3" data-label="Email">{{user.email}}</div>
+        <div class="col col-4" data-label="Password">{{user.password}}</div>
+      </li>
+     
+    </ul>
+  </div>
