@@ -4,5 +4,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Status Push
 1 scheletro del progetto
-2 register login logout
-3 Tabella in item 3 con le informazioni degli utenti
+2 register login (con i dati che vengono messi nel local storage)
+3 tabella dei dati degli utenti
